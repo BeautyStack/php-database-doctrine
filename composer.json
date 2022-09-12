@@ -1,0 +1,22 @@
+{
+    "name": "beautystack/php-ddd-database-symfony",
+    "description": "DDD Database implementation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Beautystack\\Database\\Symfony\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ken Lalobo",
+            "email": "lalobo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "beautystack/php-database-contracts": "^0.0.4",
+        "doctrine/orm": "^2.13"
+    }
+}
