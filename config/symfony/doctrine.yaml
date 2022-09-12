@@ -1,0 +1,17 @@
+doctrine:
+  dbal:
+    types:
+      value_currency:
+        class: TBeautystack\Database\Doctrine\Type\CurrencyType
+      value_date_time:
+        class: Beautystack\Database\Doctrine\Type\DateTimeUtcType
+      value_id:
+        class: Beautystack\Database\Doctrine\Type\IdType
+  orm:
+    mappings:
+      Beautystack_Value_Money:
+        is_bundle: false
+        type: xml
+        dir: '%kernel.project_dir%/vendor/beautystack/database-doctrine/config/symfony/mappings/money'
+        prefix: 'Beautystack\Value\Implementation\Money'
+        alias: Beautystack_Value_Money

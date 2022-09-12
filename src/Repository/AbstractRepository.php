@@ -1,6 +1,6 @@
 <?php
 
-namespace Beautystack\Database\Symfony\Doctrine;
+namespace Beautystack\Database\Doctrine\Repository;
 
 use Beautystack\Database\Contracts\AbstractRepository as AbstractRepositoryBase;
 use Beautystack\Database\Contracts\CacheHandlerInterface;

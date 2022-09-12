@@ -1,11 +1,11 @@
 {
-    "name": "beautystack/php-database-symfony",
+    "name": "beautystack/database-doctrine",
     "description": "DDD Database implementation",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Beautystack\\Database\\Symfony\\": "src/"
+            "Beautystack\\Database\\Doctrine\\": "src/"
         }
     },
     "authors": [
@@ -17,6 +17,7 @@
     "require": {
         "php": ">=8.0.0",
         "doctrine/orm": "^2.13",
-        "beautystack/database-contracts": "^0.0.6"
+        "beautystack/database-contracts": "^0.0.7",
+        "beautystack/value-object": "^0.0.2"
     }
 }
