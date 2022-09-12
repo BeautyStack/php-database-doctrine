@@ -1,5 +1,5 @@
 {
-    "name": "beautystack/php-ddd-database-symfony",
+    "name": "beautystack/php-database-symfony",
     "description": "DDD Database implementation",
     "type": "library",
     "license": "MIT",
