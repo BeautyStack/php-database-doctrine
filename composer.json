@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "beautystack/php-database-contracts": "^0.0.4",
-        "doctrine/orm": "^2.13"
+        "doctrine/orm": "^2.13",
+        "beautystack/database-contracts": "^0.0.6"
     }
 }

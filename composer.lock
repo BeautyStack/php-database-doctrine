@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbf54a5ec8baa4d38139fb9040b19610",
+    "content-hash": "bab844dec42d6f353f1a462f8963d2c9",
     "packages": [
         {
-            "name": "beautystack/php-database-contracts",
-            "version": "0.0.4",
+            "name": "beautystack/database-contracts",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/php-database-contracts.git",
-                "reference": "9ed1521a8b442790cd12679543905d7cc761bc42"
+                "reference": "9129c2ed44c096b2078ae08287ef68814182f1ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BeautyStack/php-database-contracts/zipball/9ed1521a8b442790cd12679543905d7cc761bc42",
-                "reference": "9ed1521a8b442790cd12679543905d7cc761bc42",
+                "url": "https://api.github.com/repos/BeautyStack/php-database-contracts/zipball/9129c2ed44c096b2078ae08287ef68814182f1ed",
+                "reference": "9129c2ed44c096b2078ae08287ef68814182f1ed",
                 "shasum": ""
             },
             "require": {
-                "beautystack/php-value-object-contracts": "^0.0.2",
+                "beautystack/value-object-contracts": "^0.0.3",
                 "php": ">=8.0"
             },
             "type": "library",
@@ -42,22 +42,22 @@
             "description": "Generic abstractions related to databases",
             "support": {
                 "issues": "https://github.com/BeautyStack/php-database-contracts/issues",
-                "source": "https://github.com/BeautyStack/php-database-contracts/tree/0.0.4"
+                "source": "https://github.com/BeautyStack/php-database-contracts/tree/0.0.6"
             },
-            "time": "2022-09-12T13:38:39+00:00"
+            "time": "2022-09-12T16:11:17+00:00"
         },
         {
-            "name": "beautystack/php-value-object-contracts",
-            "version": "0.0.2",
+            "name": "beautystack/value-object-contracts",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/php-value-object-contracts.git",
-                "reference": "3f6b9ed46a804dca708b14e25b00e8e5820e53a3"
+                "reference": "d42686ee2ca0755f5cc741f253ac0c22e578eed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BeautyStack/php-value-object-contracts/zipball/3f6b9ed46a804dca708b14e25b00e8e5820e53a3",
-                "reference": "3f6b9ed46a804dca708b14e25b00e8e5820e53a3",
+                "url": "https://api.github.com/repos/BeautyStack/php-value-object-contracts/zipball/d42686ee2ca0755f5cc741f253ac0c22e578eed6",
+                "reference": "d42686ee2ca0755f5cc741f253ac0c22e578eed6",
                 "shasum": ""
             },
             "require": {
@@ -83,9 +83,9 @@
             "description": "Generic abstractions related to value objects",
             "support": {
                 "issues": "https://github.com/BeautyStack/php-value-object-contracts/issues",
-                "source": "https://github.com/BeautyStack/php-value-object-contracts/tree/0.0.2"
+                "source": "https://github.com/BeautyStack/php-value-object-contracts/tree/0.0.3"
             },
-            "time": "2022-09-12T09:22:17+00:00"
+            "time": "2022-09-12T16:08:09+00:00"
         },
         {
             "name": "doctrine/cache",
