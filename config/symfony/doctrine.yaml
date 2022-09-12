@@ -2,7 +2,7 @@ doctrine:
   dbal:
     types:
       value_currency:
-        class: TBeautystack\Database\Doctrine\Type\CurrencyType
+        class: Beautystack\Database\Doctrine\Type\CurrencyType
       value_date_time:
         class: Beautystack\Database\Doctrine\Type\DateTimeUtcType
       value_id:

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91035617f7c7a26303fc38cece8e8ba9",
+    "content-hash": "3254ca98f5d5ab1350e9a6a056691c41",
     "packages": [
         {
             "name": "beautystack/database-contracts",
@@ -48,16 +48,16 @@
         },
         {
             "name": "beautystack/value-object",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/php-value-object.git",
-                "reference": "ff9f3042a096e797615fa172d5695f6999aa5238"
+                "reference": "343510c3d29c655570abd2b8e1893b19fe6c1614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BeautyStack/php-value-object/zipball/ff9f3042a096e797615fa172d5695f6999aa5238",
-                "reference": "ff9f3042a096e797615fa172d5695f6999aa5238",
+                "url": "https://api.github.com/repos/BeautyStack/php-value-object/zipball/343510c3d29c655570abd2b8e1893b19fe6c1614",
+                "reference": "343510c3d29c655570abd2b8e1893b19fe6c1614",
                 "shasum": ""
             },
             "require": {
@@ -85,9 +85,9 @@
             ],
             "support": {
                 "issues": "https://github.com/BeautyStack/php-value-object/issues",
-                "source": "https://github.com/BeautyStack/php-value-object/tree/0.0.2"
+                "source": "https://github.com/BeautyStack/php-value-object/tree/0.0.3"
             },
-            "time": "2022-09-12T22:44:55+00:00"
+            "time": "2022-09-12T23:34:19+00:00"
         },
         {
             "name": "beautystack/value-object-contracts",

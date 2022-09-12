@@ -18,6 +18,6 @@
         "php": ">=8.0.0",
         "doctrine/orm": "^2.13",
         "beautystack/database-contracts": "^0.0.7",
-        "beautystack/value-object": "^0.0.2"
+        "beautystack/value-object": "^0.0.3"
     }
 }
