@@ -15,7 +15,7 @@ use Doctrine\ORM\EntityManagerInterface;
 abstract class AbstractRepository extends AbstractRepositoryBase implements RepositoryInterface
 {
     public function __construct(
-        private EntityManagerInterface $entityManager,
+        protected EntityManagerInterface $entityManager,
         null|CacheHandlerInterface $cacheHandler = null
     ) {
         parent::__construct($cacheHandler);
